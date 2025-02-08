@@ -64,6 +64,6 @@ Go to `http://127.0.0.1:5000/` and start testing!
 I'm always open to collaboration and suggestions! Feel free to **open issues** or **pull requests** on this repository.
 
 ## 📌 Connect with Me 
-🔗 **LinkedIn**: [MyLinkedIn]([https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/sumit-bedre-985958235/))  
+🔗 **LinkedIn**: https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/sumit-bedre-985958235/ 
 
 Happy coding! 🚀😊
