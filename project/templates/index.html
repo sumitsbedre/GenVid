@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gender Detecting Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #191970, #1e90ff);
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .upload-box {
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            width: 60%;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .upload-box input[type="file"] {
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .upload-box button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .upload-box button:hover {
+            background-color: #ff1493;
+        }
+        .image-preview {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .image-preview img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        p {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>GENVID : Gender Detecting Webpage</h1>
+    <h2>A real-time gender detecting ML model with up to 98.5% accuracy...</h2>
+    <div class="upload-box">
+        <h3>Upload your image here</h3>
+        <div class="image-preview" id="imagePreview">
+            <p>No image chosen</p>
+        </div>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" onchange="previewImage(event)" required>
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <footer>
+        <!-- <p>*Points to remember: Model may make mistakes as trained on limited data and low compatible hardware. Please use clear, close-up images.*</p> -->
+        <p>Designed by Sumit Sudheer Bedre</p>
+    </footer>
+    <script>
+        function previewImage(event) {
+            const imagePreview = document.getElementById("imagePreview");
+            const file = event.target.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.innerHTML = `<img src="${e.target.result}" alt="Image Preview">`;
+                };
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.innerHTML = `<p>No image chosen</p>`;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classification Result</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #191970, #1e90ff);
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .result-box {
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            width: 60%;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .result-box p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .result-box a {
+            text-decoration: none;
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .result-box a:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <div class="result-box">
+        <p>Predicted Class: <strong>{{ label }}</strong></p>
+        <p>Confidence: <strong>{{ confidence }}</strong></p>
+        <a href="/">Back to Homepage</a>
+    </div>
+</body>
+</html>
