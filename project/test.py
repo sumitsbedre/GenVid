@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load your trained model
-model_path = "D:\sem\IBM experments\project\gender_classification_model.h5"  # Replace with your model file
+model_path = "Project\gender_classification_model.h5"  # Replace with your model file
 model = load_model(model_path)
 
 # Function to preprocess a single image
@@ -45,7 +45,7 @@ def predict_gender(image_path):
     return class_label, prediction[0][0]
 
 # Test the model with a single image
-test_image_path = "D:\sem\IBM experments\project\male.jpeg"  # Replace with your test image file path
+test_image_path = "___"  # Replace with your test image file path
 try:
     class_label, confidence = predict_gender(test_image_path)
     print(f"Predicted Class: {class_label} (Confidence: {confidence:.2f})")
