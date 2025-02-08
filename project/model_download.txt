@@ -1,1 +1,5 @@
 https://huggingface.co/sumitarjun/Genvid/blob/main/models/gender_classification_model.h5
+
+make a folder named "model"
+
+paste the model into that folder before use of project
