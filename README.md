@@ -36,10 +36,12 @@ I plan to:
 - Improve the model’s accuracy with a more diverse dataset
 - Deploy the application on cloud platforms for public access
 
-## 📸 Preview
-(Include screenshots or GIFs here to showcase the UI and working model)
-
 ## 📂 Installation & Usage
+
+### Model Downloading
+- download the model from txt file mentioned in the above project folder (or)
+- use the link [Download the model](https://huggingface.co/sumitarjun/Genvid/blob/main/models/gender_classification_model.h5)
+  
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/yourusername/GENVID.git
@@ -62,8 +64,7 @@ Go to `http://127.0.0.1:5000/` and start testing!
 ## 🤝 Contributions & Feedback
 I'm always open to collaboration and suggestions! Feel free to **open issues** or **pull requests** on this repository.
 
-## 📌 Connect with Me
-🔗 **GitHub**: [Check my profile](https://github.com/yourusername)  
-🔗 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)  
+## 📌 Connect with Me 
+🔗 **LinkedIn**: [MyLinkedIn]([https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/sumit-bedre-985958235/))  
 
 Happy coding! 🚀😊
