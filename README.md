@@ -39,19 +39,18 @@ I plan to:
 ## 📂 Installation & Usage
 
 ### Model Downloading
-- download the model from txt file mentioned in the above project folder (or)
+- download the model from txt file mentioned in the above project folder
+  (or)
 - use the link [Download the model](https://huggingface.co/sumitarjun/Genvid/blob/main/models/gender_classification_model.h5)
   
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/GENVID.git
-cd GENVID
+git clone https://github.com/sumitsbedre/Genvid.git
+cd Genvid
 ```
 
 ### 2️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
+Install dependencies using pip
 
 ### 3️⃣ Run the application
 ```bash
