@@ -1,28 +1,69 @@
 # GenVid
 A machine learning-powered web application that predicts gender from images with up to 98.5% accuracy. A robust and user-friendly web application for real-time gender detection..
 
-Project Highlights:
-🔍 Objective: Build a robust and user-friendly web application for real-time gender detection.
+# GENVID – Real-Time Gender Detection Web Application
 
-⚙️ Algorithm: The application leverages a Convolutional Neural Network (CNN) trained on a labeled dataset of facial images to classify gender.
+## 🚀 Overview
+GENVID is a machine learning-powered web application that predicts gender from images with up to **98.5% accuracy**. This project challenged me to merge technical expertise with creative design, and I’m excited to share the results! 🎉
 
-🛠️ Tech Stack and Tools Used:
-Machine Learning Framework: TensorFlow/Keras
-Backend: Flask
-Frontend: HTML, CSS, JavaScript (for dynamic image preview) yeah the design is not that grt, but hey!!! it's a good start though 😅😋
-Image Processing: OpenCV for pre-processing images
-Deployment Environment: Local system setup for testing and Flask server hosting
+## 🔍 Objective
+Develop a **robust and user-friendly** web application for **real-time gender detection**.
 
-💻 Key Features:
-Simple and clean UI with gradient backgrounds and responsive design
-Dynamic image preview feature before submission
-Processes and classifies uploaded images in real-time
-Outputs both predicted gender and confidence score
+## ⚙️ Algorithm
+The application utilizes a **Convolutional Neural Network (CNN)** trained on a labeled dataset of facial images to classify gender.
 
-🧩 Platforms:
-Model Training and Development: Jupyter Notebook
-Testing and Deployment: Flask and local server
-This project not only enhanced my understanding of machine learning model deployment but also taught me how to create an intuitive user interface that ensures seamless interaction.
+## 🛠️ Tech Stack
+- **Machine Learning Framework:** TensorFlow/Keras
+- **Backend:** Flask
+- **Frontend:** HTML, CSS, JavaScript (for dynamic image preview)
+- **Image Processing:** OpenCV for pre-processing images
+- **Deployment:** Flask server (local setup for testing)
 
-🎯 What’s Next?
-I aim to enhance the model’s accuracy further by training it on a more diverse dataset and deploying it on cloud platforms for usage, but for now that's it.
+## 💻 Key Features
+✅ **Simple and Clean UI** – Gradient backgrounds with a responsive layout  
+✅ **Dynamic Image Preview** – Allows users to preview images before submission  
+✅ **Real-Time Processing** – Uploads and classifies images instantly  
+✅ **Accuracy & Confidence Score** – Displays the predicted gender along with confidence levels  
+
+## 🧩 Platforms Used
+- **Model Training and Development:** Jupyter Notebook
+- **Testing and Deployment:** Flask and local server
+
+This project not only strengthened my understanding of **machine learning model deployment**, but also taught me how to design an intuitive UI for a seamless user experience.
+
+## 🎯 What’s Next?
+I plan to:
+- Improve the model’s accuracy with a more diverse dataset
+- Deploy the application on cloud platforms for public access
+
+## 📸 Preview
+(Include screenshots or GIFs here to showcase the UI and working model)
+
+## 📂 Installation & Usage
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/GENVID.git
+cd GENVID
+```
+
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the application
+```bash
+python app.py
+```
+
+### 4️⃣ Open in Browser
+Go to `http://127.0.0.1:5000/` and start testing!
+
+## 🤝 Contributions & Feedback
+I'm always open to collaboration and suggestions! Feel free to **open issues** or **pull requests** on this repository.
+
+## 📌 Connect with Me
+🔗 **GitHub**: [Check my profile](https://github.com/yourusername)  
+🔗 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)  
+
+Happy coding! 🚀😊
