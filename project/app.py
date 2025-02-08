@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
-model_path = "D:\sem\IBM experments\project\project\models\gender_classification_model.h5"
+model_path = "project\models\gender_classification_model.h5" #set respective path of the model
 model = load_model(model_path)
 
 def preprocess_image(image):
